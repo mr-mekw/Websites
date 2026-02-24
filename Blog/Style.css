@@ -1,0 +1,35 @@
+:root {
+    --night-bordeaux: #5E0B15;
+    --burnt-rose: #90323D;
+    --pale-oak: #D9CAB3;
+    --bronze: #BC8034;
+    --dusty-taupe: #8C7A6B;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(fonts\static\Caveat-Regular.ttf);
+}
+
+#link-container {
+    flex-direction: column;
+    display: flex;
+    width: 25%;
+    margin-left: 35%;
+    border-style: groove;
+    border-width: 10px;
+    border-color: var(--dusty-taupe);
+    color: var(--pale-oak);
+}
+
+body {
+    background-color: var(--night-bordeaux);
+    cursor: url("decepticon_cursor.png"), default;
+    /* just change the cursor.ico path to your location */
+}
+
+a {
+    border: 10px, groove, var(--bronze);
+    padding: 10px;
+    margin-top: 15px;
+}

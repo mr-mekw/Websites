@@ -24,12 +24,12 @@
 
 body {
     background-color: var(--night-bordeaux);
-    cursor: url("decepticon_cursor.png"), default;
+    cursor: url("../media/decepticon_cursor.png"), default;
     /* just change the cursor.ico path to your location */
 }
 
 a {
-    border: 10px, groove, var(--bronze);
+    border: 10px groove var(--bronze);
     padding: 10px;
     margin-top: 15px;
 }

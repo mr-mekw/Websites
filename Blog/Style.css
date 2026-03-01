@@ -31,6 +31,4 @@ body {
 a {
     border: 10px groove var(--bronze);
     padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }

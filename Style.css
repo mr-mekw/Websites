@@ -6,11 +6,6 @@
     --dusty-taupe: #8C7A6B;
 }
 
-@font-face {
-    font-family: 'CustomFont';
-    src: url(fonts\static\Caveat-Regular.ttf);
-}  /* this doesn't work fsr... */
-
 #link-container {
     flex-direction: column;
     display: flex;
@@ -20,9 +15,21 @@
     border-width: 10px;
     border-color: var(--dusty-taupe);
     color: var(--pale-oak);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: larger;
 }
 
 body {
     background-color: var(--night-bordeaux);
     cursor: url("../Websites/media/decepticon_cursor.png"), default;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    border: 10px groove var(--bronze);
+    padding: 10px;
+    color: var(--pale-oak);
 }

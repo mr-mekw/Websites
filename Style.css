@@ -10,13 +10,11 @@
     flex-direction: column;
     display: flex;
     width: 25%;
-    margin-left: 35%;
-    border-style: groove;
-    border-width: 10px;
-    border-color: var(--dusty-taupe);
+    margin-left: 15%;
+    border-left: 10px groove var(--dusty-taupe);
+    border-bottom: 10px groove var(--dusty-taupe);
     color: var(--pale-oak);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 40px;
 }
 
 h1 {
@@ -28,10 +26,11 @@ body {
     background-color: var(--night-bordeaux);
     cursor: url("../Websites/media/decepticon_cursor.png"), default;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 a {
-    border: 10px groove var(--bronze);
-    padding: 10px;
+    border: 5px inset var(--burnt-rose);
+    padding: 5px;
     color: var(--pale-oak);
 }

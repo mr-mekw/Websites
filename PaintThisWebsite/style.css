@@ -1,5 +1,6 @@
 body {
-    background-image: url('../media/bg.gif')
+    background-image: url('../media/bg.gif');
+    cursor: url('../media/decepticon_cursor.png'), default;
 }
 
 h1 {
@@ -17,22 +18,35 @@ h2 {
 
 #link-container {
     flex-direction: column;
-    display: flex;
+    display: inline-flex;
 }
 
-#content-container{
+/* #content-container{
     color:rgb(153, 237, 229);
     align-content: center;
     margin-left: 60%;
     margin-bottom: 40px;
     border: 7px solid black;
     line-height: 30px;
+} */
+
+#text-link {
+    color:rgb(153, 237, 229);
+    align-content: center;
+    margin-bottom: 40px;
+    border: 7px solid black;
+    line-height: 30px;
+    display: inline;
+    background-color: rgba(240, 248, 255, 0.25);
+}
+
+#right-align {
+    position: fixed;
+    right: 5%;
 }
 
 a {
     margin: 20px;
-    margin-right: 50%;
-    border: 5px ridge black;
 }
 
 

@@ -6,6 +6,12 @@
     --dusty-taupe: #8C7A6B;
 }
 
+.marquee {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: end;
+}
+
 @font-face {
     font-family: 'CustomFont';
     src: url(fonts\static\Caveat-Regular.ttf);
